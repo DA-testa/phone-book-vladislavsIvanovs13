@@ -30,7 +30,7 @@ def process_queries(queries):
         else:
             response = 'not found'
             if not dictionary.get(cur_query.number) == None:
-                response = dictionary[cur_query.name]
+                response = dictionary[cur_query.number]
             result.append(response)
     return result
 
